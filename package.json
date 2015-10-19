@@ -1,42 +1,13 @@
 {
-  "name": "angular-ui-router",
+  "name": "@atlas-fe/ui-router",
   "description": "State-based routing for AngularJS",
   "version": "0.2.15",
-  "homepage": "http://angular-ui.github.com/",
-  "contributors": [
-    {
-      "name": "Nate Abele",
-      "email": "nate@unionofrad.com",
-      "web": "https://github.com/nateabele"
-    },
-    {
-      "name": "Tim Kindberg",
-      "web": "https://github.com/timkindberg"
-    },
-    {
-      "name": "Karsten Sperling",
-      "web": "https://github.com/ksperling"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "AngularUI",
-      "web": "https://github.com/angular-ui?tab=members"
-    }
-  ],
+  "homepage": "https://github.com/atlas-fe/ui-router",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-ui/ui-router.git"
+    "url": "https://github.com/atlas-fe/ui-router.git"
   },
-  "bugs": {
-    "url": "https://github.com/angular-ui/ui-router/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/angular-ui/ui-router/blob/master/LICENSE"
-    }
-  ],
+  "main": "release/angular-ui-router.js",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -61,6 +32,5 @@
     "load-grunt-tasks": "~0.4.0",
     "grunt-conventional-changelog": "~1.1.0",
     "grunt-ngdocs": "~0.2.5"
-  },
-  "main": "release/angular-ui-router.js"
+  }
 }
